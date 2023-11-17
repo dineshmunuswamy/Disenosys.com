@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    background-color: black;
+}
+.five-wrapper{
+    height: auto;
+    width: 100%;
+}
+.five-wrapper-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.five-wrapper-div-child{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.five-wrapper-div-child-h3{
+    height:70px;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    width: 15%;
+}
+.five-wrapper-div-child-1{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five-wrapper-div-child-1-ul{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    /* z-index: 2; */
+}
+.five-wrapper-div-child-1-ul-li{
+    width: 30%;
+    list-style-type: none;
+    border-radius: 15px;
+    border: none;
+    height: 540px;
+    box-shadow: 0px 0px 6px 0px black;
+    /* position: relative; */
+    /* z-index: 1; */
+    margin-top: 50px;
+}
+.five-wrapper-div-child-1-ul-li-img{
+    /* background-color: lightgray; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.five-wrapper-div-child-1-ul-li-span{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+    width: 100%;
+    padding: 9px;
+    border-radius: 15px;
+}
+.five-wrapper-div-child-1-ul-li-span1{
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 9px;
+    text-decoration: none;
+}
+.five-wrapper-div-child-1-ul-li:hover{
+    box-shadow: 0px 0px 10px 0px aqua;
+    transform: scale(1.1);
+    transition-duration: 2s;
+     
+}
+.div-li-child{
+    position: absolute;
+    background: none;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 30px;
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 550px;
+}
+
+.h3-chila-a{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-a-h3-child{
+    width: 90%;
+    height: 70px;
+}

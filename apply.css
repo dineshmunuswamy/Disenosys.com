@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="file"] {
+    width: 97%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    background-color: #0A0078;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+[type="submit"]:hover {
+    background-color: #45a049;
+}
